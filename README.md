@@ -32,6 +32,9 @@ It should be trivial to add other devices being the overall and over simplified 
 
 # TODO
 [x] - Reverse engineer the Redragon mouse single color command
+
 [x] - Reverse engineer the Redragon keybaord single color command
+
 [ ] - Reverse enginner the brightness value command
+
 [ ] - Add a command line argument parser, for passing the color as an argument
