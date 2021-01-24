@@ -1,0 +1,22 @@
+{
+  "name": "redragon-rgb-controller",
+  "version": "1.0.0",
+  "description": "Sends USB commands to REDRAGON's devices in order to define the device color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rgb",
+    "redragon",
+    "led",
+    "control",
+    "hid",
+    "usb"
+  ],
+  "author": "Leandro Soares Quevedo",
+  "license": "ISC",
+  "dependencies": {
+    "node-hid": "^2.1.1"
+  }
+}
