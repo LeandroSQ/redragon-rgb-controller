@@ -35,12 +35,12 @@ If you want to support the project by adding support to new devices, here's the 
 - After that is just a matter of changing the raw bytes on the code
 
 ## TODO
-[X] - Reverse engineering of the Redragon mouse single color command
+- [X] Reverse engineering of the Redragon mouse single color command
 
-[X] - Reverse engineering of the Redragon keyboard single color command
+- [X] Reverse engineering of the Redragon keyboard single color command
 
-[X] - Add a CLI program to interface with the library
+- [X] Add a CLI program to interface with the library
 
-[ ] - Reverse engineer the brightness value command
+- [ ] Reverse engineer the brightness value command
 
-[ ] - Add audio responsive commands *(At the time, as a separated program, only working with the microphone response)*
+- [ ] Add audio responsive commands *(At the time, as a separated program, only working with the microphone response)*
