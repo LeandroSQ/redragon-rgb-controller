@@ -1,11 +1,9 @@
 {
   "name": "redragon-rgb-controller",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Sends USB commands to REDRAGON's devices in order to define the device color",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "rgb",
     "redragon",
@@ -15,8 +13,12 @@
     "usb"
   ],
   "author": "Leandro Soares Quevedo",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "fourier-transform": "^1.1.2",
+    "gui": "^0.9.4",
+    "naudiodon": "^2.3.2",
+    "node-core-audio": "git+https://github.com/kemphack/node-core-audio.git",
     "node-hid": "^2.1.1"
   }
 }
