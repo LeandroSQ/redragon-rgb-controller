@@ -19,11 +19,11 @@ This project uses the wonderful library [node-hid](https://github.com/node-hid/n
 ## Tested devices
 The devices bellow were tested  and currently working, please open an Issue if your device is not supported.
 
-|Name|Is it functional?|
+|Name|Support|
 |--|--|
-| Kala keyboard (Lunar white) | Yes |
-| Griffin mouse (Lunar white) | Yes |
-| Griffin mouse (Regular black) | Yes |
+| Kala keyboard (Lunar white) | Full |
+| Griffin mouse (Lunar white) | Full |
+| Griffin mouse (Regular black) | Full |
 
 ## Adding new devices
 If you want to support the project by adding support to new devices, here's the overall process.
@@ -41,6 +41,10 @@ If you want to support the project by adding support to new devices, here's the 
 
 - [X] Add a CLI program to interface with the library
 
-- [ ] Reverse engineer the brightness value command
+- [ ] Reverse engineering of the brightness value command
+
+- [ ] Reverse engineering of the effect type value command
+
+- [ ] Standalone tcp server for remote controlling, possible Alexa/GAssistant skills
 
 - [ ] Add audio responsive commands *(At the time, as a separated program, only working with the microphone response)*
